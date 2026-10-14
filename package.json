@@ -1,6 +1,6 @@
 {
   "name": "@serjeycom/site-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared semantic tokens, UI primitives and lint config for Serjey sites",
   "type": "module",
   "sideEffects": ["./tokens.css"],
@@ -22,13 +22,7 @@
     "tailwind-merge": "^3.7.0"
   },
   "peerDependencies": {
-    "react": "^19.0.0",
-    "eslint": "^9.0.0 || ^10.0.0",
-    "eslint-config-next": "^16.0.0"
-  },
-  "peerDependenciesMeta": {
-    "eslint": { "optional": true },
-    "eslint-config-next": { "optional": true }
+    "react": "^19.0.0"
   },
   "devDependencies": {
     "react": "^19.3.0",

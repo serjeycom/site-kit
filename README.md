@@ -17,7 +17,7 @@ CSS-переменных и собственные компоненты прод
 Для независимого деплоя сайтов используйте публичный HTTPS-архив тега:
 
 ```sh
-npm install 'https://codeload.github.com/serjeycom/site-kit/tar.gz/refs/tags/v0.1.0'
+npm install 'https://codeload.github.com/serjeycom/site-kit/tar.gz/refs/tags/v0.1.1'
 ```
 
 ```css
@@ -33,6 +33,9 @@ import { cn, ExternalLink } from '@serjeycom/site-kit';
 import config from '@serjeycom/site-kit/eslint-config';
 export default config;
 ```
+
+Для `eslint-config` сайт устанавливает `eslint` и `eslint-config-next` в
+`devDependencies`. UI и CSS работают без этих инструментов в production.
 
 Повышайте версию тега в каждом сайте отдельно, затем запускайте его линтер и
 production build. Lockfile фиксирует SHA-512 архива. Не используйте локальный
